@@ -1,0 +1,45 @@
+h1{
+    font-family: 'Prata', serif;
+    font-size: 3em;
+    padding-left: 15px;
+    margin: 10px;
+}
+.header-line{
+
+    border-left: 5px solid tomato;
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+}
+
+
+.head-container{
+    width: 50%;
+    margin: 60px;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: tomato;
+    color: white;
+    padding: 10px 25px ;
+    border-radius: 5px;
+}
+
+img{
+    width: 70%;
+}
+.span{
+    color: orange;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    font-weight: 500;
+    text-align: justify;
+    margin: 40px 0;
+}
