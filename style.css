@@ -26,6 +26,8 @@ a{
     font-size: 20px;
     background-color: tomato;
     color: white;
+    display: inline-block;
+    margin: 10px 0px;
     padding: 10px 25px ;
     border-radius: 5px;
 }
@@ -36,22 +38,17 @@ a{
 .span{
     color: orange;
 }
-.header p{
+p{
     font-family: 'Roboto', sans-serif;
     font-size: 1.25em;
     font-weight: 500;
     text-align: justify;
-    margin: 40px 0;
 }
 .mission-section h1{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     font-weight: 900;
-}
-.mission-section p {
-    font-family: 'Oswald', sans-serif;
-    font-size: 15px;
 }
 .missions-container{
     display: flex;
@@ -81,4 +78,28 @@ a{
 }
 .m3{
     background-color: rgba(255, 234, 167,0.25);
+}
+
+.documention-section{
+    margin: 50px;
+    display: flex;
+    justify-content:center;
+}
+
+.document-container{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+
+.documention-section img {
+    width: 60%;
+    position: absolute;
+    right:60px;
+}
+.documention-section h2{
+    font-family:'Oswald', sans-serif;
+    font-size: 35px;
+    margin: 0;
+    letter-spacing: 2px;
 }
