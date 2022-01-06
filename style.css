@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+     /* header section starts */
 
 .header h1{
     font-family: 'Prata', serif;
@@ -17,6 +18,7 @@
 
 .header{
     display: flex;
+    margin: 55px;
 }
 
 
@@ -25,17 +27,6 @@
     margin: 60px;
     padding: 20px;
     position: relative;
-}
-a{
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    background-color: tomato;
-    color: white;
-    display: inline-block;
-    margin: 10px 0px;
-    padding: 10px 25px ;
-    border-radius: 5px;
 }
 
 .head-container img{
@@ -46,17 +37,40 @@ a{
 .span{
     color: orange;
 }
+
+    /* style for all anchor tag  */
+
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: tomato;
+    color: white;
+    display: inline-block;
+    margin: 15px 0px;
+    padding: 10px 25px ;
+    border-radius: 5px;
+}
+
+      /* style for most of the paragraph tag */
+      
 p{
     font-family: 'Roboto', sans-serif;
     font-size: 1.25em;
     font-weight: 500;
     text-align: justify;
 }
+     /* mission section starts */
+
+.mission-section{
+    margin: 60px;
+}
 .mission-section h1{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-size: 50px;
     font-weight: 900;
+    margin: 30px;
 }
 .missions-container{
     display: flex;
@@ -65,7 +79,7 @@ p{
 }
 .missions{
    
-    width: 20%;
+    width: 25%;
     padding: 20px;
     margin: 10px;
     border-radius: 25px;
@@ -87,10 +101,11 @@ p{
 .m3{
     background-color: rgba(255, 234, 167,0.25);
 }
+        /* documentation section starts */
 
 .documention-section{
     margin: 70px;
-    margin-bottom: 120px;
+    margin-bottom: 150px;
     display: flex;
     justify-content:center;
 }
@@ -112,6 +127,9 @@ p{
     margin: 0;
     letter-spacing: 2px;
 }
+
+        /* contract section starts  */
+
 .contract-section{
     margin: 20px;
 }
@@ -120,6 +138,7 @@ p{
   font-size: 50px;
   text-align: center;
   letter-spacing: 3px;
+  margin: 20px;
 }
 .contract-container{
     display: flex;
@@ -135,16 +154,24 @@ p{
   border: 1px solid gainsboro;
   border-radius: 5px;
 }
+.contract h2{
+    font-family:'Oswald', sans-serif;
+    font-size: 25px;
+}
+
 .our-contract h5{
     font-family:'Oswald', sans-serif;
     font-size: 15px;
     border-left:2px solid tomato ;
     padding-left:10px ;
+    margin-bottom: 15px;
 }
-.contract h2{
-    font-family:'Oswald', sans-serif;
-    font-size: 25px;
+.our-contract p{
+    margin-bottom: 20px;
 }
+
+
+    /* footer parts  */
 
 footer{
     width: 100%;
