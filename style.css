@@ -24,6 +24,7 @@
     width: 50%;
     margin: 60px;
     padding: 20px;
+    position: relative;
 }
 a{
     text-decoration: none;
@@ -39,6 +40,8 @@ a{
 
 .head-container img{
     width: 70%;
+    position: absolute;
+    bottom: -30px;
 }
 .span{
     color: orange;
