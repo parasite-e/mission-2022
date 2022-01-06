@@ -36,10 +36,49 @@ a{
 .span{
     color: orange;
 }
-p{
+.header p{
     font-family: 'Roboto', sans-serif;
     font-size: 1.25em;
     font-weight: 500;
     text-align: justify;
     margin: 40px 0;
+}
+.mission-section h1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+.mission-section p {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+}
+.missions-container{
+    display: flex;
+    justify-content:center;
+   
+}
+.missions{
+   
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 25px;
+}
+.missions img {
+    width: 40%;
+}
+.missions h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.m1{
+    background-color:rgba(129, 236, 236,0.25);
+}
+.m2{
+    background-color:rgba(250, 177, 160,0.25);
+}
+.m3{
+    background-color: rgba(255, 234, 167,0.25);
 }
