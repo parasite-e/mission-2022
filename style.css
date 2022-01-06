@@ -81,7 +81,8 @@ p{
 }
 
 .documention-section{
-    margin: 50px;
+    margin: 70px;
+    margin-bottom: 100px;
     display: flex;
     justify-content:center;
 }
